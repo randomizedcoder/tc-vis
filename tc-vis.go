@@ -64,6 +64,7 @@ func HandleLink(link netlink.Link, extra_nesting bool) {
 }
 
 var cli struct {
+	// TODO there seems to be a lint error here
 	Interface string `arg name:"interface" help:"Interface to query." type:"string" default:"" optional`
 }
 
